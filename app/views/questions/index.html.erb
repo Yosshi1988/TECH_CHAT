@@ -1,0 +1,5 @@
+<% @questions.each do |question| %>
+  タイトル：<%= question.title %><br>
+  内容 : <%= question.question_content %><br>
+  投稿者名 : <%= question.question_person %><br><br>
+<% end %>
